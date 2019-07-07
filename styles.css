@@ -1,0 +1,745 @@
+/*---------- TAG SELECTORS --------*/
+
+body
+{
+  background-color:white;
+  position: relative;
+  margin: 0;
+}
+hr
+{
+  border-style:none ;
+  border-top-style:dotted;
+  border-color:grey;
+  border-width:5px;
+  width:5%;
+}
+p
+{
+  color: #073A53;
+  font-family: 'Montserrat', sans-serif;
+
+}
+h1
+{
+  color: #073A53;
+  font-size: 270%;
+  font-family: 'Sacramento', cursive;
+}
+h3
+{
+  color:#073A53;
+  font-family: 'Montserrat', sans-serif;
+}
+h2
+{
+  color: #073A53;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*------------------------ CLASS SELECTORS --------------------*/
+.personal
+{
+
+  background-color: #B0D2D3;
+  padding-top: 270px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.web-pic
+{
+  background-color: #B0D2D3;
+  height: 370px;
+  position: relative;
+}
+.education
+{
+  height: 480px;
+  background-color: white;
+  text-align: center;
+  position :relative;
+  padding-top: 150px;
+}
+.projects
+{
+  background-color: #B0D2D3;
+  position: relative;
+  height: 1100px;
+  padding-top: 30px;
+}
+.skills-tools
+{
+  background-color: white;
+  position: relative;
+  height: 700px;
+  padding-top: 30px;
+}
+.hobbies
+{
+  background-color: #b0d2d3;
+  position: relative;
+  height: 830px;
+  padding-top: 30px;
+}
+.contact
+{
+  background-color: white;
+  position: relative;
+  height: 400px;
+  padding-top: 30px;
+}
+.pro-icon
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 30px;
+  left: 680px;
+  border-radius: 100%;
+
+}
+.ed-icon
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  top: 20px;
+  left: 680px;
+}
+.ed
+{
+  font-size: 200%;
+  position: absolute;
+  top: 140px;
+  left: 695px;
+  padding-bottom: 150px;
+}
+.skills
+{
+  font-size: 200%;
+  position: absolute;
+  top: 160px;
+  left: 440px;
+  padding-bottom: 150px;
+}
+.tools
+{
+  font-size: 200%;
+  position: absolute;
+  top: 160px;
+  left: 940px;
+  padding-bottom: 150px;
+}
+.hobbiess
+{
+  font-size: 200%;
+  position: absolute;
+  top: 160px;
+  left: 700px;
+  padding-bottom: 150px;
+}
+.one-main-web
+{
+  position: absolute;
+  height: 350px;
+  width:650px;
+  left: 410px;
+}
+.dp
+{
+  position: absolute;
+  border-radius:100%;
+  bottom: 275px;
+  left: 680px;
+  height: 150px;
+  width: 150px;
+}
+.python
+{
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  top: 280px;
+  left: 350px;
+}
+.cpp
+{
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  top: 380px;
+  left: 350px;
+}
+.angular
+{
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  top: 480px;
+  left: 350px;
+}
+.sql
+{
+  position: absolute;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  top: 580px;
+  left: 350px;
+}
+.html
+{
+  height: 50px;
+  width: 50px;
+  left: 1150px;
+  top: 150px;
+  position: absolute;
+}
+.css
+{
+  height: 50px;
+  width: 50px;
+  left: 350px;
+  top: 150px;
+  position: absolute;
+}
+.php
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 1280px;
+  top: 350px;
+}
+.js
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 200px;
+  top: 350px;
+}
+.twitter
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 1450px;
+  top: 10px;
+  border-radius: 100%;
+}
+.fb
+{
+  position: absolute;
+  top: 10px;
+  left: 1400px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.insta
+{
+  position: absolute;
+  top: 10px;
+  left: 1350px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.copyright
+{
+  left: 1350px;
+  top: 50px;
+  position: absolute;
+}
+.uni
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 230px;
+  left: 550px;
+}
+.college
+{
+  position: absolute;
+  height: 140px;
+  width: 100px;
+  border-radius: 100%;
+  top: 320px;
+  left: 840px;
+}
+.school
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 470px;
+  left: 550px;
+}
+.uni-p
+{
+  position: absolute;
+  top: 270px;
+  left: 760px;
+
+}
+.college-p
+{
+  position: absolute;
+  top: 390px;
+  left: 640px;
+}
+.school-p
+{
+  position: absolute;
+  top: 502px;
+  left: 760px;
+}
+.fast
+{
+  position: absolute;
+  top: 244px;
+  left: 700px;
+}
+.punjab
+{
+  position: absolute;
+  top: 365px;
+  left: 560px;
+}
+.dps
+{
+  position: absolute;
+  top: 478px;
+  left: 700px;
+}
+
+
+.fyp
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 290px;
+  left: 350px;
+  border-radius: 100%;
+}
+
+.atm
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 460px;
+  left: 1080px;
+  border-radius: 100%;
+}
+
+.torcs
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 600px;
+  left: 350px;
+  border-radius: 100%;
+}
+.tetris
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 760px;
+  left: 1080px;
+  border-radius: 100%;
+}
+.trex
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 900px;
+  left: 350px;
+  border-radius: 100%;
+}
+.fypier
+{
+  top: 260px;
+  left: 500px;
+  position: absolute;
+}
+.ATM
+{
+  position: absolute;
+  top: 440px;
+  left: 400px;
+}
+.TORCS
+{
+  position: absolute;
+  top: 590px;
+  left: 500px;
+}
+.TETRIS
+{
+  position: absolute;
+  top: 740px;
+  left: 380px;
+}
+.TREX
+{
+  position: absolute;
+  top: 890px;
+  left: 500px;
+}
+.fyp-tool
+{
+
+  top: 290px;
+  left: 500px;
+  position: absolute;
+}
+.atm-tool
+{
+  top: 470px;
+  left: 350px;
+  position: absolute;
+}
+.torcs-tool
+{
+  top: 620px;
+  left: 500px;
+  position: absolute;
+}
+.tetris-tool
+{
+  position: absolute;
+  top: 770px;
+  left: 350px;
+}
+.trex-tool
+{
+  position: absolute;
+  top: 920px;
+  left: 500px;
+}
+.fyp-p
+{
+  position: absolute;
+  left: 500px;
+  top: 340px;
+}
+.atm-p
+{
+  top: 500px;
+  left: 350px;
+  position: absolute;
+}
+.torcs-p
+{
+  top: 650px;
+  left: 500px;
+  position: absolute;
+}
+.tetris-p
+{
+  position: absolute;
+  top: 800px;
+  left: 350px;
+}
+.trex-p
+{
+  position: absolute;
+  top: 950px;
+  left: 500px;
+}
+.project
+{
+
+  position: absolute;
+  font-size: 200%;
+  top: 165px;
+  left: 615px;
+}
+
+
+.skill-img
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top:30px;
+  left: 400px;
+  border-radius: 100%;
+
+}
+.tool-img
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top:30px;
+  left: 900px;
+  border-radius: 100%;
+}
+.vs-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 280px;
+  left:880px;
+  border-radius: 100%;
+}
+.vc-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 330px;
+  left:880px;
+  border-radius: 100%;
+}
+.atom-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 380px;
+  left:880px;
+  border-radius: 100%;
+}
+.anaconda-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 430px;
+  left:880px;
+  border-radius: 100%;
+}
+.ks-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 480px;
+  left:880px;
+  border-radius: 100%;
+}
+.invision-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 530px;
+  left:880px;
+  border-radius: 100%;
+}
+.sketch-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 580px;
+  left:880px;
+  border-radius: 100%;
+}
+.eclipse-img
+{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 630px;
+  left:880px;
+  border-radius: 100%;
+}
+.vs
+{
+  position: absolute;
+  top: 275px;
+  left: 950px;
+
+}
+.vc
+{
+  position: absolute;
+  top: 325px;
+  left: 950px;
+}
+.atom
+{
+  position: absolute;
+  top: 375px;
+  left: 950px;
+}
+.anaconda
+{
+  position: absolute;
+  top: 425px;
+  left: 950px;
+}
+.ks
+{
+  position: absolute;
+  top: 475px;
+  left: 950px;
+}
+.invision
+{
+  position: absolute;
+  top: 525px;
+  left: 950px;
+
+}
+.sketch
+{
+  position: absolute;
+  top: 575px;
+  left: 950px;
+
+}
+.eclipse
+{
+  position: absolute;
+  top: 625px;
+  left: 950px;
+}
+
+
+.pythonn
+{
+  position: absolute;
+  top: 270px;
+  left: 430px;
+}
+.cppp
+{
+  position: absolute;
+  top: 370px;
+  left: 430px;
+}
+.angularr
+{
+  position: absolute;
+  top: 470px;
+  left: 430px;
+}
+.sqll
+{
+  position: absolute;
+  top: 570px;
+  left: 430px;
+}
+
+
+.hobbies-img
+{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  top: 20px;
+  left: 690px;
+}
+.bodybuilding-img
+{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  top: 280px;
+  left: 500px;
+}
+.watching-img
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 420px;
+  left: 900px;
+}
+.music-img
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 560px;
+  left: 500px;
+}
+.egaming-img
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 700px;
+  left: 900px;
+}
+
+
+.bodybuilding
+{
+  position: absolute;
+  top: 310px;
+  left: 650px;
+}
+.watching
+{
+  position: absolute;
+  top: 440px;
+  left: 610px;
+}
+.music
+{
+  position: absolute;
+  top: 580px;
+  left: 650px;
+}
+.egaming
+{
+  position: absolute;
+  top: 720px;
+  left: 610px;
+}
+.icanhelp
+{
+  font-size: 200%;
+  position: absolute;
+  top: 40px;
+  left: 650px;
+  padding-bottom: 150px;
+
+}
+.available
+{
+  position: absolute;
+  top: 100px;
+  left: 540px;
+}
+.description
+{
+  text-align: center;
+  position:absolute;
+  top: 150px;
+  left: 220px;
+}
+.msg
+{
+  position: absolute;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  top: 230px;
+  left: 640px;
+}
